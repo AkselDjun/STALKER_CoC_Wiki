@@ -1,0 +1,9 @@
+body {
+    background-size: 100% auto;
+    background-image: url(./image/bg.jpg);
+    box-shadow: -230px 0 150px 50vw rgba(rgb(209, 31, 31), .7);
+}
+
+.mainСontainer {
+    
+}

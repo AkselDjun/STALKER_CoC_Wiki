@@ -1,6 +1,6 @@
 {
-  "name": "simple-desktop-app-electronjs",
-  "productName": "simple-desktop-app-electronjs",
+  "name": "stalker-wiki",
+  "productName": "STALKER Call Of Pripyat Wiki",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
     "lint": "eslint src --color"
   },
   "keywords": [],
-  "author": "Алексей",
+  "author": "Alexei Khinevich",
   "license": "MIT",
   "config": {
     "forge": {
@@ -47,6 +47,7 @@
     }
   },
   "dependencies": {
+    "electron-builder": "^22.9.1",
     "electron-compile": "^6.4.4",
     "electron-squirrel-startup": "^1.0.0"
   },
