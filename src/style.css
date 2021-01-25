@@ -1,9 +1,49 @@
+html {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-size: 100% auto;
     background-image: url(./image/bg.jpg);
-    box-shadow: -230px 0 150px 50vw rgba(rgb(209, 31, 31), .7);
 }
 
-.mainСontainer {
-    
+.mainСontainer{
+    background-color: #32312ec2;
+    color: #2dac7bc5;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:6px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#32312e36;
+border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color:#2f3241c5;
+background-position:center;
+background-repeat:no-repeat;
+border-radius: 20px;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:7px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 10px;
 }
