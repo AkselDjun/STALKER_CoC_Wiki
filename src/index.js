@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, ipcMain } from 'electron';
 
 const path = require('path');
 
@@ -20,7 +20,6 @@ app.on('ready', function createWindow() {
     frame: false,
     webPreferences: {
       nodeIntegration: true,
-      nativeWindowOpen: true,
       preload: path.join(__dirname, 'preload.js')
     }
   });
