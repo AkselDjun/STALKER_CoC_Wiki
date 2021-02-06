@@ -17,8 +17,4 @@ app.get('/tasks/:name', function (request, response) {
 
 MongoClient.connect(url, function (error, db) {
     useNewUrlParser: true;
-
-    if (error) throw error;
-    database = db;
-    app.listen(1000);
 });
