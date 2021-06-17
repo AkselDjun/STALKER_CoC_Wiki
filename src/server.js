@@ -6,6 +6,7 @@ const app = express();
 
 const mongoClient = new MongoClient("mongodb://localhost:27017/", { useUnifiedTopology: true });
 
+
 app.use(express.static(__dirname + "/src"));
 
 mongoClient.connect(function (err, client) {

@@ -20,6 +20,7 @@ app.on('ready', function createWindow() {
     frame: false,
     webPreferences: {
       nodeIntegration: true,
+      nodeIntegrationInWorker: true,
       preload: path.join(__dirname, 'preload.js')
     }
   });
